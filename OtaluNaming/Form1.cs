@@ -94,8 +94,19 @@ namespace OtaluNaming
             else if (this.d30.Checked) Dname = "정";
             else if (this.d31.Checked) Dname = "슴";
 
-            MessageBox.Show("당신의 이름은? " + Mname + " " + Dname, "결과");
-
+            if(Mname == null  || Dname == null)
+            {
+                MessageBox.Show("값을 입력하세요!", "결과");
+            }
+            else if ((m2.Checked || m4.Checked || m6.Checked || m9.Checked || m11.Checked)
+                        && this.d31.Checked)
+            {
+                MessageBox.Show("없는 날 입니다.", "결과");
+            }
+            else
+            {
+                MessageBox.Show("당신의 이름은? " + Mname + " " + Dname, "결과");
+            }
         }
     }
 }
