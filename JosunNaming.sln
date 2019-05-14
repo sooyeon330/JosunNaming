@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtaluNaming", "OtaluNaming\OtaluNaming.csproj", "{84102250-C426-4759-B1F0-7D238E520984}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JosunNaming", "OtaluNaming\JosunNaming.csproj", "{84102250-C426-4759-B1F0-7D238E520984}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
